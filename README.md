@@ -1,8 +1,6 @@
 # TalonGames
 ## Break the filters. Access the web.
-Let's be real: the internet was meant to be open, but sometimes firewalls get in the way. I built TalonGames as a solo project to bridge that gap. It’s a fast, sleek web proxy designed to help anyone bypass censorship and get back to the entertainment and info they actually want to see.
-
-No bloated frameworks, no tracking—just clean code and a way to stay connected.
+Talon was made for countries with heavy censorship, not to play games in class. I only added games so people can enjoy entertainment when their country doesn't want them to have access to it.
 
 ## ⚙️ How It Works
 If you're wondering what's happening under the hood, here’s the breakdown of how TalonGames handles your requests:
@@ -11,16 +9,16 @@ The Request: When you enter a URL, the frontend captures that input.
 
 The Proxy Layer: Instead of your browser reaching out directly to a blocked site, the request is routed through proxy scripts (managed in config.js and the sw.js service worker).
 
-Rewriting the Web: The proxy fetches the site’s data and "rewrites" it on the fly. This ensures that links, images, and scripts on the target site continue to work within the proxy environment without "leaking" back to your real IP.
+Rewriting the Web: The proxy fetches the site’s data and "rewrites" it. This ensures that links, images, and scripts on the target site continue to work within the proxy environment without "leaking" back to your real IP.
 
-The Result: The site loads inside the TalonGames interface, looking and feeling like the original, but completely unblocked.
+The Result: The site loads inside the Talon interface.
 
 ## 📂 What’s Inside?
 I’ve organized the repo to be as modular as possible:
 
 components/ – Reusable UI pieces, like the footer.js I just updated.
 
-scripts/ – The brains. Check out featured.js for the latest logic on how content is surfaced.
+scripts/ – The brains. Check out featured.js for the most popular links used.
 
 styles/ – Custom CSS. I’ve been tweaking search.css to make the discovery experience feel a lot smoother.
 
@@ -40,7 +38,7 @@ If you run into bugs or have questions, you can reach out to me:
 
 Discord: keystone.here
 
-Join the Server: Click here to join the Discord
+Join the Server: [Click here to join the Discord](https://discord.gg/VMYGhAEqcD)
 
 ## 🚀 Getting it Running
 Since this is a solo project, I've kept the setup pretty straightforward:
