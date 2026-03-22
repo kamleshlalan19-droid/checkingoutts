@@ -141,7 +141,7 @@ require(['vs/editor/editor.main'], function () {
     state.editor = monaco.editor.create(document.getElementById('monaco-container'), {
         value: state.files.get('index.html').content,
         language: 'html',
-        theme: 'phantom',
+        theme: 'talon',
         fontSize: 14,
         fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
         minimap: { enabled: false },
