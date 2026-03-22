@@ -646,7 +646,7 @@ class PhantomChat {
         try {
             const contextLimit = (window.Settings && Settings.getAll().aiContextWindow) || 10;
             const messages = [
-                { role: 'system', content: 'You are Phantom AI, a helpful and knowledgeable assistant. Use Markdown formatting. Use KaTeX for mathematical formulas (e.g., use $ for inline and $$ for block math). Be concise but thorough.' },
+                { role: 'system', content: 'You are Talon AI, a helpful and knowledgeable assistant. Use Markdown formatting. Use KaTeX for mathematical formulas (e.g., use $ for inline and $$ for block math). Be concise but thorough.' },
                 ...conv.messages.slice(-contextLimit).map(m => {
                     let messageContent = m.content || "Image description request";
                     
@@ -916,7 +916,7 @@ class PhantomChat {
 
         if (!conv || !conv.messages.length) {
             this.dom.hero.style.display = 'block';
-            this.dom.title.textContent = 'Phantom AI';
+            this.dom.title.textContent = 'Talon AI';
         } else {
             this.dom.hero.style.display = 'none';
             this.dom.title.textContent = conv.title;
