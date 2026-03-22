@@ -17,7 +17,7 @@ window.SITE_CONFIG = {
     quotes: [
         "shoutout dax",
         "so tuff",
-        "26 inch rims",
+        "change themes in settings",
         "do ur work",
         "catnap",
         "SIRENHEAD",
