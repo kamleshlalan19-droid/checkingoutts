@@ -1,6 +1,6 @@
 window.SITE_CONFIG = {
-    name: "Phantom",
-    fullName: "Phantom Unblocked",
+    name: "Talon",
+    fullName: "Talon Unblocked",
     version: "1.1.6",
 
     changelog: [
