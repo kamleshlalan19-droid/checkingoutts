@@ -12,7 +12,7 @@
         }
     }
 
-    const config = window.SITE_CONFIG || { name: 'Phantom', version: '1.0.0', discord: { inviteUrl: '#' }, changelog: [], cloakPresets: [] };
+    const config = window.SITE_CONFIG || { name: 'Talon', version: '1.0.0', discord: { inviteUrl: '#' }, changelog: [], cloakPresets: [] };
     const STORAGE_KEY = 'void_settings';
     let storedSettings = {};
     try { storedSettings = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { }
